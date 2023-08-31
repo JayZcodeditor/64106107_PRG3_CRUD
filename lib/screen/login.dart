@@ -134,7 +134,7 @@ class _LoginState extends State<Login> {
 }
 
   Future<void> login(Users user) async {
-    var params = {"email": "a@test.com", "password": "1q2w3e4r"};
+    var params = {"email": user.email, "password": user.password};
 
     var url = Uri.http(Configure.server, "users", params);
     var resp = await http.get(url);

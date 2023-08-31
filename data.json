@@ -16,10 +16,17 @@
     },
     {
       "id": 3,
-      "fullname": "yj",
+      "fullname": "yjererg",
       "email": "hnghn@gmail.com",
       "password": "sdf33asd",
       "gender": "Female"
+    },
+    {
+      "id": 4,
+      "fullname": "asas",
+      "email": "jthammakit@gmail.com",
+      "password": "1q2w3e4r",
+      "gender": null
     }
   ]
 }
