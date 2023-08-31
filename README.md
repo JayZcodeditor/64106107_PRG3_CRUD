@@ -1,13 +1,20 @@
-# How to Run
+How to Run 🚀
+Before Deploying:
+Before deploying the application, remember to save your changes by pressing Ctrl + S in the pubspec.yaml file.
 
-**Don't forgot !!!!**
-Before deploying the application please press Ctrl+S in pubspec.yaml
-Change Ipserver_connect in Config.dart
+Update IP Address:
+In the Config.dart file, locate and update the Ipserver_connect variable to match your server's IP address.
 
-**Init Json-server**
-Open server json-server -H <ipv4> data.json <port> 
-config.dart change server variable 
+Initialize JSON Server:
+Open your terminal/command prompt and navigate to your project directory. Run the following command to start the JSON server using your data.json file:
 
-**Run**
-main.dart without debugging
+kotlin
+Copy code
+json-server -H data.json
+Update Server Variable:
+In the config.dart file, adjust the server variable to match your server's URL.
 
+Run the App:
+Open the main.dart file in your Flutter project. Make sure you're not debugging and just want to run the app. Run the app to see your changes in action!
+
+By following these steps, you'll be able to easily set up and run your Flutter application with the necessary configurations. Happy coding! 💻📱🎉
