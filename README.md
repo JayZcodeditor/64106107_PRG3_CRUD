@@ -16,3 +16,5 @@ In the config.dart file, adjust the server variable to match your server's URL.
 Open the main.dart file in your Flutter project. Make sure you're not debugging and just want to run the app. Run the app to see your changes in action!
 
 By following these steps, you'll be able to easily set up and run your Flutter application with the necessary configurations. Happy coding! 💻📱🎉
+
+
