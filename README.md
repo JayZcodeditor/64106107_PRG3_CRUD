@@ -8,7 +8,9 @@ In the <span style="color: blue;">Config.dart</span> file, locate and update the
 
 **Initialize JSON Server:**
 Open your terminal/command prompt and navigate to your project directory. Run the following command to start the JSON server using your <span style="color: blue;">data.json</span> file:
-/////json-server -H data.json
+```
+json-server -H data.json
+```
 
 **Update Server Variable:**
 In the <span style="color: blue;">config.dart</span> file, adjust the <span style="color: blue;">server</span> variable to match your server's URL.
